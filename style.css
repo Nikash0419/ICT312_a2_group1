@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
+.logo {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    gap: 20px; /* Gap between grid items */
+}
+  
+.image {
+    grid-column: 1; /* Image on the left */
+}
+.image img{
+    width: 100%;
+    margin-top: 15px;
+}
+.description {
+    grid-column: 2; /* Description on the right */
+}
+  
+ /* Optional: Style the description */
+.description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.description p {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 24px;
+}
+
+#timer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#timer div {
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#timer span {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+  
